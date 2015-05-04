@@ -67,7 +67,7 @@ class SpeakolSettings
         register_setting('speakol', 'speakol_no_title', array($this, 'noTitleValidation'));
         add_settings_section('speakol_settings_section', '', '', 'speakol');
         add_settings_field('speakol_argbox_status', 'Argument Box Status' , array($this, 'addArgBoxStatus'), 'speakol', 'speakol_settings_section');
-        add_settings_field('speakol_app_id', 'App ID', array($this, 'addAppId'), 'speakol', 'speakol_settings_section');
+        add_settings_field('speakol_app_id', 'Publisher ID', array($this, 'addAppId'), 'speakol', 'speakol_settings_section');
         add_settings_field('speakol_box_width', 'Box Width(Optional)' , array($this, 'addBoxWidth'), 'speakol', 'speakol_settings_section');
         add_settings_field('speakol_displays_in', 'Displays In' , array($this, 'addDisplaysIn'), 'speakol', 'speakol_settings_section');
         add_settings_field('speakol_title', 'Title' , array($this, 'addTitle'), 'speakol', 'speakol_settings_section');
@@ -92,7 +92,7 @@ class SpeakolSettings
         $app_id = get_option('speakol_app_id', '');
         $readonly = (!$this->isArgBoxStatusEnabled()) ? 'readonly' : '';
         echo '<input id="app_id" type="text" name="speakol_app_id" value="'. $app_id . '"' . $readonly . ' >';
-        echo '<p class="description"> You\'ll find your App ID in the Publisher Info section in your dashboard</p>';
+        echo '<p class="description"> You\'ll find your Publisher ID in the Settings page in your dashboard</p>';
     }
 
     public function addDisplaysIn() {
