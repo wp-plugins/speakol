@@ -4,9 +4,9 @@
 * Plugin Name: Speakol
 * Plugin URI: 
 * Description: Speakol helps you build your own community and drive up engagement around your content.
-* Author: Team Speakol
-* Author URI: http://plugins.speakol.com
-* Version: 1.0 
+* Author: infraLayer
+* Author URI: http://www.infralayer.com/
+* Version: 1.2 
 */
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
