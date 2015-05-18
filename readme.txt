@@ -20,3 +20,5 @@ Speakol helps you build your own community and drive up engagement around your c
 3. The Argument Box at the post. 
 
 == Changelog ==
+== Frequently Asked Questions ==
+You'll find the [FAQ on Speakol.com](http://plugins.speakol.com/about).
