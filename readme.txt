@@ -18,3 +18,5 @@ Speakol helps you build your own community and drive up engagement around your c
 1. The Argument Box settings.
 2. The Argument Box widget at post or page. 
 3. The Argument Box at the post. 
+
+== Changelog ==
