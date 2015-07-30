@@ -2,7 +2,7 @@
 Contributors: infralayer
 Requires at least: 4.0
 Tested up to: 4.2.3
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
