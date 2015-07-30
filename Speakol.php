@@ -6,7 +6,7 @@
 * Description: Speakol helps you build your own community and drive up engagement around your content.
 * Author: infraLayer
 * Author URI: http://www.infralayer.com/
-* Version: 1.3 
+* Version: 1.4 
 */
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
